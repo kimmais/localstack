@@ -1,5 +1,5 @@
 
-# Stack para Desenvolver Localmente
+# Development Local Stack
 
 
 **Indice**
