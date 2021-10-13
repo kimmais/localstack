@@ -1,9 +1,16 @@
+
 # Stack para Desenvolver Localmente
-Localstack é responsável por disponibilizar um ambiente idêntico ao de produção, porém localmente, para realizarmos o desenvolvimento e/ou testes.
+.
+
+**Indice**
+- [O que é o Localstack?]()
+- [Criando localstack para o seu projeto?]()
+- [Como rodar?]()
+- [Módulos]()
 
 
 ## O que é o Localstack?
-Nada mais é um projeto docker compose com um conjunto de servicos disponíveis ( que chamamos de modulos ). Essas funcionalidades são: Ambiente local da AWS, Banco de dados, Banco em Memória, MOCK de APIS entre outros serviços necessários para se emular um ambiente de produção.
+Localstack é responsável por disponibilizar um ambiente idêntico ao de produção, porém localmente, para realizarmos o desenvolvimento e/ou testes, ou seja, nada mais é um projeto docker compose com um conjunto de servicos disponíveis ( que chamamos de modulos ). Essas funcionalidades são: Ambiente local da AWS, Banco de dados, Banco em Memória, MOCK de APIS entre outros serviços necessários para se emular um ambiente de produção.
 
 ## Criando localstack para o seu projeto?
 Cada projeto possui uma pasta **localstack**. Dentro dela terá um arquivo docker-compose.yml e uma pasta chamada entrypoints( pontos de entrada) a onde tera scripts e rotina auxiliares para cada módulo a ser utilizado.
@@ -35,7 +42,6 @@ services:
 ## Como rodar?
 Para subir o ambiente basta está na pasta do localstack e realizar ter instalado o docker e o docker-compose e executar os comando abaixo:
 
-Para rodar, 
 ### Subir o ambiente
 ```sh
 docker-compose up -d
@@ -45,12 +51,3 @@ docker-compose up -d
 ```sh
 docker-compose down --remove-orphans
 ```
-
-
-# Módulos
-Abaixo, segue como usar os modulos fornecidos nos projetos.
-
-Lista de módulos:
-- [AWS Local](https://kimmais.github.io/localstack/modules/aws-local)
-- [Database](https://kimmais.github.io/localstack/modules/database)
-- [Mock Server](https://kimmais.github.io/localstack/modules/mockserver)
