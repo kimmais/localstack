@@ -47,10 +47,10 @@ docker-compose down --remove-orphans
 ```
 
 
-# Modulos
+# Módulos
 Abaixo, segue como usar os modulos fornecidos nos projetos.
 
 Lista de módulos:
-- [AWS Local]()
-- [Database]()
-- [Mock Server]()
+- [AWS Local](https://kimmais.github.io/localstack/modules/aws-local)
+- [Database](https://kimmais.github.io/localstack/modules/database)
+- [Mock Server](https://kimmais.github.io/localstack/modules/mockserver)
