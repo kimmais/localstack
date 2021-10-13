@@ -56,5 +56,5 @@ docker-compose down --remove-orphans
 
 
 ## Modulos
-Para acessar a lista de módulos, basta acessar a [!https://kimmais.github.io/localstack/modules/](https://kimmais.github.io/localstack/modules/)
+Para acessar a lista de módulos, basta acessar a [https://kimmais.github.io/localstack/modules/](https://kimmais.github.io/localstack/modules/)
 
