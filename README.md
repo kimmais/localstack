@@ -1,4 +1,4 @@
-# Localstack
+# Stack para Desenvolver Localmente
 Localstack é responsável por disponibilizar um ambiente idêntico ao de produção, porém localmente, para realizarmos o desenvolvimento e/ou testes.
 
 
