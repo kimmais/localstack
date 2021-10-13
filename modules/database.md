@@ -8,7 +8,7 @@ para instalar o modulo de banco de dados, basta copiar o script abaixo e inserir
 **Estrutura básica**
 ```yaml
 
-// Modulo: Database
+# Modulo: Database
   database:
     image: "postgres"
     restart: "always"
@@ -18,7 +18,7 @@ para instalar o modulo de banco de dados, basta copiar o script abaixo e inserir
       POSTGRES_DB: "kim"
     ports:
       - "5432:5432"
-// ================
+# ================
 
 ```
 
