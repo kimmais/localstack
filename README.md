@@ -21,7 +21,7 @@ services:
     image: "postgres"
     restart: "always"
     environment:
-      POSTGRES_PASSWORD:"password"
+      POSTGRES_PASSWORD: "password"
       POSTGRES_USER: "user"
       POSTGRES_DB: "kim"
     ports:
