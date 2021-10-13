@@ -44,7 +44,7 @@ Todas as APIs são expostas por meio de um único serviço de borda, que pode se
     environment:
       SERVICES: "secretsmanager"
       EDGE_PORT: "4566"
-      DEFAULT_REGION: "us-east-1"
+      DEFAULT_REGION: "us-east-2"
     ports:
       - "4566:4566"
       - "4571:4571"
@@ -56,12 +56,11 @@ Todas as APIs são expostas por meio de um único serviço de borda, que pode se
 
 #### Configuração
 
-- EDGE_PORT: número da porta para o serviço de borda, o principal ponto de entrada para todas as chamadas de API (padrão: 4566).
+- **EDGE_PORT**: número da porta para o serviço de borda, o principal ponto de entrada para todas as chamadas de API (padrão: 4566).
 
-- SERVICE: lista de serviços a serem emulados separados por vírgulas de nomes de serviço. 
-Os nomes de serviço correspondem basicamente aos nomes de serviço do AWS CLI (kinesis, lambda, sqs, etc), embora LocalStack só ofereça suporte a um subconjunto deles. Valor de exemplo: kinesis, lambda, sqs para iniciar Kinesis, Lambda e SQS. Além disso, os seguintes valores abreviados podem ser especificados para executar um conjunto predefinido de serviços: sem servidor: serviços de execução geralmente usados - para aplicativos sem servidor (iam, lambda, dynamodb, apigateway, s3, sns)
+- **SERVICE**: Lista de serviços a serem emulados separados por vírgulas de nomes de serviço. Os nomes de serviço correspondem basicamente aos nomes de serviço do AWS CLI (kinesis, lambda, sqs, etc), embora LocalStack só ofereça suporte a um subconjunto deles. Valor de exemplo: kinesis, lambda, sqs para iniciar Kinesis, Lambda e SQS. Além disso, os seguintes valores abreviados podem ser especificados para executar um conjunto predefinido de serviços: sem servidor: serviços de execução geralmente usados - para aplicativos sem servidor (iam, lambda, dynamodb, apigateway, s3, sns)
 
-- DEFAULT_REGION: região AWS para usar ao falar com a API (padrão: us-east-1)
+- **DEFAULT_REGION**: região AWS para usar ao falar com a API (padrão: us-east-1)
 
-Alguns 
+Alguns serviços precisar de configurações específicas, neste caso oriento acessar o link [https://hub.docker.com/r/localstack/localstack](https://hub.docker.com/r/localstack/localstack)
 
